@@ -1,0 +1,17 @@
+{
+  "name": "jev-toolkit",
+  "private": true,
+  "type": "module",
+  "description": "Personal Jev (TypeSafe) decision layer: job router, done-check, Claude Code guard hooks, benchmarks.",
+  "scripts": {
+    "test": "vitest run",
+    "dispatch": "node dispatch.mjs",
+    "verify": "node verify.mjs",
+    "eval": "node eval.mjs",
+    "bench:sheetgoods": "node bench-sheetgoods.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}

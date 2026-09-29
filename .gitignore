@@ -1,0 +1,6 @@
+node_modules/
+queue/
+log.jsonl
+hook-log.jsonl
+.env
+.env.*
